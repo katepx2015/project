@@ -1,0 +1,5 @@
++ serve the index.html file when a user visits the website
++ create a "route" for the client to ask for info based on location
++ use JSON to send the data back to the client
+	decide on a good format to send the data to the client to make it easy to parse
++ done!!!!
