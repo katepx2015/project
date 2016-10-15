@@ -1,0 +1,62 @@
+<DOCTYPE html>
+<html>
+<head>
+	<title>Fast False</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<script>
+	var x = document.getElementById("demo");
+	function getLocation() {
+	    if (navigator.geolocation) {
+	        navigator.geolocation.getCurrentPosition(showPosition);
+	    } else {
+	        x.innerHTML = "Geolocation is not supported by this browser.";
+	    }
+	}
+	function showPosition(position) {
+	    x.innerHTML = "Latitude: " + position.coords.latitude + 
+	    "<br>Longitude: " + position.coords.longitude; 
+	}
+
+	getLocation();
+
+	</script>
+
+
+</head>
+<body>
+	<img src="logo.png" height="120"/> 
+	<form>
+		<div>
+			<label>
+				
+
+				<input type="text" style="visibility: hidden" id="solution" onkeyup="doSomething(event);">
+				<input type="button" value="log in to spotify" onclick="redirect();" > 
+				<script type="text/javascript">
+				    function doSomething(e) {
+				        var keyCode = e.keyCode || e.charCode;
+				        if (keyCode === 13) {
+				            redirect();
+				        }
+				    }
+
+				    function redirect() {
+				        window.location.href = "http://www.december.com/html/tutor/hello.html"
+				            + document.getElementById("solution").value
+				            + ".html";
+				    }
+				</script>
+
+				
+
+			</label>
+		</div>
+
+	</form>
+
+</body>
+
+
+
+</html>
