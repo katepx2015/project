@@ -1,0 +1,6 @@
++ get user id in text box
++ get location (hint: you can use HTML5 to do this, just google it)
++ ask back end for information about users in the area by sending location and user id
+	(check out this link for a start http://www.w3schools.com/xml/ajax_intro.asp)
++ use jquery to put the info from the back end in the web page
++ done!!!
