@@ -1,0 +1,6 @@
+Location-based Spotify App
+--------------------------
++ Gets users' locations using HTML5 and stores them in a db (mongo?)
++ Server (heroku) queries database with id of user who is requesting info
+  and returns music being listened to by nearby users
++ db can store users by location
